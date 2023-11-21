@@ -82,9 +82,16 @@ public class TripletSum {
         return listRet;
     }
     public static void main(String[] args) {
-        int[] nums = {-2,0,1,1,2};
-        TripletSum TS = new TripletSum();
-        List<List<Integer>> list = new ArrayList<>();
-        System.out.println(TS.threeSum(nums));
+        List<String> list1 = new ArrayList<>();
+        list1.add("hello");
+        list1.add("alex");
+        list1.add("liu");
+
+        List<String> list2 = new ArrayList<>();
+        list2.add("hello");
+        list2.add("alex");
+        list2.add("liu");
+
+        System.out.println(list2.equals(list1));
     }
 }
